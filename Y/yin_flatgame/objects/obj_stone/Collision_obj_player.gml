@@ -1,0 +1,1 @@
+obj_player.add_speed = 0.5;
