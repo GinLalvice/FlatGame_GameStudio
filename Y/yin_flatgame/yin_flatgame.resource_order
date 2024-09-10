@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_car","order":7,"path":"objects/obj_car/obj_car.yy",},
     {"name":"obj_door_Enter","order":3,"path":"objects/obj_door_Enter/obj_door_Enter.yy",},
     {"name":"obj_door_Exit","order":4,"path":"objects/obj_door_Exit/obj_door_Exit.yy",},
     {"name":"obj_manager","order":5,"path":"objects/obj_manager/obj_manager.yy",},
@@ -14,6 +15,7 @@
     {"name":"spr_player_walking_UD","order":2,"path":"sprites/spr_player_walking_UD/spr_player_walking_UD.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"sprite_NPC","order":4,"path":"sprites/sprite_NPC/sprite_NPC.yy",},
+    {"name":"Sprite10","order":8,"path":"sprites/Sprite10/Sprite10.yy",},
     {"name":"Sprite9","order":7,"path":"sprites/Sprite9/Sprite9.yy",},
   ],
 }

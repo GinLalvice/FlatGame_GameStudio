@@ -34,6 +34,7 @@
   },
   "name":"yin_flatgame",
   "resources":[
+    {"id":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},},
     {"id":{"name":"obj_door_Enter","path":"objects/obj_door_Enter/obj_door_Enter.yy",},},
     {"id":{"name":"obj_door_Exit","path":"objects/obj_door_Exit/obj_door_Exit.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"spr_player_walking_UD","path":"sprites/spr_player_walking_UD/spr_player_walking_UD.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"sprite_NPC","path":"sprites/sprite_NPC/sprite_NPC.yy",},},
+    {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},},
   ],
   "resourceType":"GMProject",

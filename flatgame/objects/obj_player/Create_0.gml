@@ -1,2 +1,3 @@
 
-mspd = 8;
+mspd = 4;
+image_speed = 1;
