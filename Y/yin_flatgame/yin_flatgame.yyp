@@ -30,11 +30,13 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"yin_flatgame",
   "resources":[
+    {"id":{"name":"obj_addforce","path":"objects/obj_addforce/obj_addforce.yy",},},
     {"id":{"name":"obj_butterfly","path":"objects/obj_butterfly/obj_butterfly.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_door_Enter","path":"objects/obj_door_Enter/obj_door_Enter.yy",},},
     {"id":{"name":"obj_door_Exit","path":"objects/obj_door_Exit/obj_door_Exit.yy",},},
     {"id":{"name":"obj_electric_pole","path":"objects/obj_electric_pole/obj_electric_pole.yy",},},
@@ -48,6 +50,7 @@
     {"id":{"name":"obj_parterre","path":"objects/obj_parterre/obj_parterre.yy",},},
     {"id":{"name":"obj_parterre2","path":"objects/obj_parterre2/obj_parterre2.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_poopoo","path":"objects/obj_poopoo/obj_poopoo.yy",},},
     {"id":{"name":"obj_scenery","path":"objects/obj_scenery/obj_scenery.yy",},},
     {"id":{"name":"obj_slowspeed","path":"objects/obj_slowspeed/obj_slowspeed.yy",},},
     {"id":{"name":"obj_stone1","path":"objects/obj_stone1/obj_stone1.yy",},},
@@ -55,6 +58,7 @@
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"light","path":"sprites/light/light.yy",},},
     {"id":{"name":"spr_bg_room1","path":"sprites/spr_bg_room1/spr_bg_room1.yy",},},
     {"id":{"name":"spr_butterfly","path":"sprites/spr_butterfly/spr_butterfly.yy",},},
@@ -77,6 +81,7 @@
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},},
     {"id":{"name":"sprite_NPC","path":"sprites/sprite_NPC/sprite_NPC.yy",},},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
+    {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},},
   ],
   "resourceType":"GMProject",
@@ -84,6 +89,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

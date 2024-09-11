@@ -14,32 +14,33 @@ else{
 }
 */
 
-//is the key being held down
-if(keyboard_check(vk_up)){
+if (can_move){
+	//is the key being held down
+	if(keyboard_check(vk_up)){
 	vspeed = -move_speed*add_speed;
 	sprite_index = spr_player_move_v;
-}
+	}
 
-else if(keyboard_check(vk_down)){
+	else if(keyboard_check(vk_down)){
 	vspeed = move_speed*add_speed;
 	sprite_index = spr_player_move_v;
-}
+	}
 
-else if(keyboard_check(vk_left)){
+	else if(keyboard_check(vk_left)){
 	hspeed = -move_speed*add_speed;
 	sprite_index = spr_player_move_h;
 	image_xscale = -1;
-}
+	}
 
-else if(keyboard_check(vk_right)){
+	else if(keyboard_check(vk_right)){
 	hspeed = move_speed*add_speed;
 	sprite_index = spr_player_move_h;
 	image_xscale = 1;
-}
-else{
+	}
+	else{
 	sprite_index = spr_player;
+	}
 }
-
 /*
 //stop the player from going off the top
 if(y<=0){
@@ -65,5 +66,14 @@ if(x>=room_width){
 	hspeed = 0;
 }
 */
+
+timer+=delta_time/1000000 //the time between each frame in microseconds
+
+if(timer<1){
+	can_move=false;
+	sprite_index = spr_player;
+}else{
+	can_move=true;
+}
 
 
