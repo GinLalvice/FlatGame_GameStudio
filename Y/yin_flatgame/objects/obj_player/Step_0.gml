@@ -17,23 +17,23 @@ else{
 //is the key being held down
 if(keyboard_check(vk_up)){
 	vspeed = -move_speed*add_speed;
-	sprite_index = spr_player_walking_UD;
+	sprite_index = spr_player_move_v;
 }
 
 else if(keyboard_check(vk_down)){
 	vspeed = move_speed*add_speed;
-	sprite_index = spr_player_walking_UD;
+	sprite_index = spr_player_move_v;
 }
 
 else if(keyboard_check(vk_left)){
 	hspeed = -move_speed*add_speed;
-	sprite_index = spr_player_walking_LR;
+	sprite_index = spr_player_move_h;
 	image_xscale = -1;
 }
 
 else if(keyboard_check(vk_right)){
 	hspeed = move_speed*add_speed;
-	sprite_index = spr_player_walking_LR;
+	sprite_index = spr_player_move_h;
 	image_xscale = 1;
 }
 else{
