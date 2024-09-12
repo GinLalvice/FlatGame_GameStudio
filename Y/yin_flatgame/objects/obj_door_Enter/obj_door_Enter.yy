@@ -12,7 +12,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_scenery",
+    "path":"objects/obj_scenery/obj_scenery.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_door_Enter",
-    "path":"sprites/spr_door_Enter/spr_door_Enter.yy",
+    "name":"spr_road_sign",
+    "path":"sprites/spr_road_sign/spr_road_sign.yy",
   },
   "spriteMaskId":null,
   "visible":true,

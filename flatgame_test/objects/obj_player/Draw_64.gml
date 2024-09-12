@@ -1,0 +1,1 @@
+draw_sprite(spr_rock,0,60,60)
