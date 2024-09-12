@@ -1,6 +1,3 @@
-show_debug_message("poopoo function");
-//can_move = false;
-
 if(isColliding==false){
 	timer=0	
 }
