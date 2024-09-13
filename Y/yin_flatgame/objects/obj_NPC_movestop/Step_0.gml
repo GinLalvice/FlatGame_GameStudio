@@ -11,10 +11,6 @@ if!(is_colliding){
 	}
 }
 
-if(is_colliding){
-vspeed = 0;
-hspeed = 0;
-}
 
 
 

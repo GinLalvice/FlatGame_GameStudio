@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_road_sign",
-    "path":"sprites/spr_road_sign/spr_road_sign.yy",
+    "name":"spr_stairs",
+    "path":"sprites/spr_stairs/spr_stairs.yy",
   },
   "spriteMaskId":null,
   "visible":true,
