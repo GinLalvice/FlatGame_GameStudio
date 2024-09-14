@@ -7,12 +7,13 @@ if(is_colliding){
 	if(keyboard_check(vk_down)){
 		obj_player.sprite_index = spr_player_pee;
 		count++
-		
 	}
 	if(keyboard_check_released(vk_down)){
 		
 	if(count>50){
 	is_pressed = true ;
+	obj_player.hp+=0.5;
+	
 }
 }
 }

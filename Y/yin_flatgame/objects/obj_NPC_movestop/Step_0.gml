@@ -3,13 +3,11 @@ depth = -y;
 
 timer = timer - 1;
 
-if!(is_colliding){
-	if(timer<=0){
+if(timer<=0){
 		timer = time;
 		vspeed = random_range(-3,3);
 		hspeed = random_range(-3,3);
 	}
-}
 
 
 

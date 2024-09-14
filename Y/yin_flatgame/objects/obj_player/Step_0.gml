@@ -3,39 +3,61 @@
 depth = -y;
 vspeed*=0.7;
 hspeed*=0.7;
+if!(is_opening){
+	hp=hp-0.005
+}
 
-/*
-//speed up
-if(keyboard_check(vk_shift)){
-	add_speed = 1.8;
+
+//when no life
+if(hp<0){
+	x = start_x;
+	y = start_y;
+	hp = 50;
+	is_restart = true;
 }
 else{
-	add_speed = 1;
+	is_restart = false;
 }
-*/
+
 
 if (can_move){
 	//is the key being held down
 	if(keyboard_check(vk_up)){
 	vspeed = -move_speed*add_speed;
 	sprite_index = spr_player_move_v;
+	if(is_slow)
+		{
+		sprite_index = spr_player_moveLR_slow;
+		}
 	}
 
 	else if(keyboard_check(vk_down)){
 	vspeed = move_speed*add_speed;
 	sprite_index = spr_player_move_v;
+		if(is_slow)
+		{
+		sprite_index = spr_player_moveLR_slow;
+		}
 	}
 
 	else if(keyboard_check(vk_left)){
 	hspeed = -move_speed*add_speed;
 	sprite_index = spr_player_move_h;
 	image_xscale = -1;
+		if(is_slow)
+		{
+		sprite_index = spr_player_moveLR_slow;
+		}
 	}
 
 	else if(keyboard_check(vk_right)){
 	hspeed = move_speed*add_speed;
 	sprite_index = spr_player_move_h;
 	image_xscale = 1;
+		if(is_slow)
+		{
+		sprite_index = spr_player_moveLR_slow;
+		}
 	}
 	else{
 	sprite_index = spr_player;

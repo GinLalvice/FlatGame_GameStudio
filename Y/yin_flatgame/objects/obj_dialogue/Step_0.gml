@@ -1,6 +1,6 @@
 x = obj_player.x;
 y = obj_player.y;
-
+depth=-5000;
 
 
 
@@ -15,4 +15,5 @@ if(can_draw){
 
 if(click = 2){
 can_draw = false;
+obj_player.is_opening = false;
 }

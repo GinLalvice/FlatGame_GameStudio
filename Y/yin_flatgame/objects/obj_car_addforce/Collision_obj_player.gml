@@ -5,4 +5,5 @@ if(is_colliding==false){
 
 
 is_colliding=true;
+obj_player.hp-=1;
 alarm[0]=5;

@@ -11,10 +11,11 @@ if(is_colliding){
 
 
 //check press button
-if(press_time > 60){
+if(press_time > 120){
 	//show_debug_message(obj_player.can_move);
 	obj_player.can_move = true;
 	is_protected = true;
+	obj_UI_lf.can_draw = false;
 	alarm[0]=1;
 	alarm[1]=5;
 }
