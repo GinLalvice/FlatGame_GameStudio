@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"electric_pole2",
-    "path":"sprites/electric_pole2/electric_pole2.yy",
+    "name":"spr_electric_pole2",
+    "path":"sprites/spr_electric_pole2/spr_electric_pole2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

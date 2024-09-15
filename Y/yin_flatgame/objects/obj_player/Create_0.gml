@@ -31,3 +31,7 @@ is_opening = false;
 
 //check slow
 is_slow = false;
+
+//check final
+is_final = false;
+is_room0 = false;

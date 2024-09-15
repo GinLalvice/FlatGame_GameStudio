@@ -1,0 +1,1 @@
+obj_player.is_room0 = true;

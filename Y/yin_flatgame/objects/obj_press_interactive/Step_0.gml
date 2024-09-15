@@ -6,9 +6,14 @@ if(is_colliding){
 	obj_player.sprite_index = spr_player;
 	if(keyboard_check(vk_down)){
 		obj_player.sprite_index = spr_player_pee;
+		
+		if!(audio_is_playing(snd_pee)){
+		audio_play_sound(snd_pee,100,false);
+		}
 		count++
 	}
 	if(keyboard_check_released(vk_down)){
+		audio_stop_sound(snd_pee);
 		
 	if(count>50){
 	is_pressed = true ;

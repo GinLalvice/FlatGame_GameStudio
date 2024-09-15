@@ -7,3 +7,7 @@ cam_height = 1080;
 target_following = noone;
 
 
+is_final = false;
+is_room4 = false;
+is_room0 = false;
+

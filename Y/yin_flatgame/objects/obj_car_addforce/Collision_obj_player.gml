@@ -1,6 +1,6 @@
 if(is_colliding==false){
-	xforce=irandom_range(-50,50)
-	yforce=irandom_range(-50,50)
+	xforce=irandom_range(-10,10)
+	yforce=irandom_range(-10,10)
 }
 
 

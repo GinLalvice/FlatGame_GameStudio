@@ -1,2 +1,2 @@
 can_draw = false;
-text = "Hey, all your\nfavourite toys."
+text = "Hey, your\nfavourite balls."

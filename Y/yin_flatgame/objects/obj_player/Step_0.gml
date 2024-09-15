@@ -3,13 +3,19 @@
 depth = -y;
 vspeed*=0.7;
 hspeed*=0.7;
+
+if(is_final){
+can_move = false;
+}
+
+
+
 if!(is_opening){
 	hp=hp-0.005
 }
 
-
-//when no life
-if(hp<0){
+if(is_final!=true && is_room0!=true){
+	if(hp<0){
 	x = start_x;
 	y = start_y;
 	hp = 50;
@@ -18,6 +24,9 @@ if(hp<0){
 else{
 	is_restart = false;
 }
+}
+//when no life
+
 
 
 if (can_move){
@@ -61,6 +70,12 @@ if (can_move){
 	}
 	else{
 	sprite_index = spr_player;
+	}
+	
+	if(keyboard_check(vk_right)||keyboard_check(vk_left)||keyboard_check(vk_down)||keyboard_check(vk_up)){
+		if!(audio_is_playing(snd_walking)){
+		audio_play_sound(snd_walking,100,false);
+		}
 	}
 }
 /*

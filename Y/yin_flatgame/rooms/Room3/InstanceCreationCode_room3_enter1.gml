@@ -1,2 +1,2 @@
-targ_door = room1_exit1;
-targ_room = Room1;
+targ_door = room4_exit1;
+targ_room = Room4;
